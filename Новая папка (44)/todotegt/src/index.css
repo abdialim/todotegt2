@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  div {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .AZIZ {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .AZIZ:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-top: 20px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  span {
+    flex-grow: 1;
+    margin-right: 10px; 
+  }
+  
+  button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #333;
+    background-color: white;
+    flex-shrink: 0;
+  }
+  
+  @media (max-width: 768px) {
+    li {
+      flex-direction: row; 
+      flex-wrap: nowrap; 
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 5px 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    li {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    span {
+      margin-right: 0; 
+      margin-bottom: 10px; 
+      margin-left: 140px;
+    }
+  
+    button {
+      width: 100%; 
+      margin: 5px 0; 
+      text-align: center; 
+    }
+    .todo-logo{
+        width: '270px';
+        padding: '1px';
+       
+    }
+  }
